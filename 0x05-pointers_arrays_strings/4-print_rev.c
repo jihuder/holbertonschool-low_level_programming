@@ -2,7 +2,7 @@
 /**
  * print_rev - print backwards
  * @s: variable printing variable
- *
+ * Return: void
  */
 void print_rev(char *s)
 {
@@ -12,11 +12,12 @@ while (*s != '\0')
 i++;
 s++;
 }
-while (i > 0)
+i--;
+while (i >= 0)
 {
 s--;
 i--;
-putchar(*s);
+ putchar(*s);
 }
 putchar('\n');
 }
