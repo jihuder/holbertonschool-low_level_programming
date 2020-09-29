@@ -1,6 +1,5 @@
-#ifndef _SAMPLE_HEADER_H_
-#define _SAMPLE_HEADER_H_
-#include <stdio.h>
+#ifndef _HOLBERTON_H
+#define _HOLBERTON_H
 int _putchar(char c);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
