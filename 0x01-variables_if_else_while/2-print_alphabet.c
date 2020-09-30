@@ -8,7 +8,7 @@
 int main(void)
 {
 int letra = 97;
-while (letra < 122)
+while (letra < 123)
 {
 putchar(letra);
 letra++;
