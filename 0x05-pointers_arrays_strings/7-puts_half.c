@@ -10,14 +10,14 @@ int i = 0;
 int div;
 for (i = 0; str[i] != '\0';  i++)
 {
-div = i / 2;
-div = i - div;
 i++;
 }
+div = i / 2;
+div = i - div;
 while (str[div] != '\0')
 {
-div++;
 _putchar(str[div]);
+div++;
 }
 _putchar('\n');
 }
