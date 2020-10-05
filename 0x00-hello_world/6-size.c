@@ -1,16 +1,15 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
-float main(void)
+int main(void)
 {
-char a = 'z';
-int b = 2147483647;
-shot c = 32767;
-float d = 3.4E38;
-double e = 1.7E308;
-printf("Valor de a=%d bytes\nValor de b=%d bytes\nValor de c=%d bytes\nValor de d=%d bytes\nValor de e=%d", sizeof(a), sizeof(b), sizeof(c), sizeof(d), sizeof(e));
+printf("Size of a char: %lu byte(s)\n", sizeof(char));
+printf("Size of an int: %lu byte(s)\n", sizeof(int));
+printf("Size of a long int: %lu byte(s)\n", sizeof(long int));
+printf("Size of a long long int: %lu byte(s)\n", sizeof(long long int));
+printf("Size of a float: %lu byte(s)\n", sizeof(float));
 return (0);
 }
