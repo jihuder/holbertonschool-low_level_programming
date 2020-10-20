@@ -1,7 +1,12 @@
+#include <stdio.h>
+/**
+ * main - check the code
+ * Return: Always 0.
+ *
+ */
+int main(void)
+{
+	printf("%s\n", __FILE__);
 
-#ifndef  __3_FUCNTION_LIKE_MACRO_H__
-#define  __3_FUCTION_LIKE_MACRO_H__
-
-#define ABS(x) ((x) < 0 ? (x) * -1 : (x))
-
-#endif /* FUNCTION LIKE MACRO */
+	return (0);
+}
