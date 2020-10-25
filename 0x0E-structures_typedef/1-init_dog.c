@@ -4,7 +4,7 @@
 /**
  * init_dog - assigning data to the structure
  * @d: Structure
- * @*name: name of the dog
+ * @name: name of the dog
  * @age: age of the dog
  * @owner: owner's name
  *
