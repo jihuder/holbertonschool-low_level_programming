@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * print_list - imprint list
- * @h: It enters as a parameter a list
+ * print_list - imprint list.
+ * @h: It enters as a parameter a list.
  *
- * Return: the number of nodes
+ * Return: the number of nodes.
  */
 
 size_t print_list(const list_t *h)
@@ -29,3 +29,4 @@ return (n);
 }
 return (0);
 }
+
