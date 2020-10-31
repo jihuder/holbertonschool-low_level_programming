@@ -5,12 +5,13 @@
 #include <string.h>
 
 /**
- * struct list_s - linked list
- * @str: string - pointer to a string
- * @len: Measures the length of a string
- * @next: pointer to a type list_s
+ * struct list_s - singly linked list
+ * @str: string - (malloc'ed string)
+ * @len: length of the string
+ * @next: points to the next node
  *
- * Description: list of linked nodes
+ * Description: singly linked list node structure
+ * for Holberton project
  */
 typedef struct list_s
 {
