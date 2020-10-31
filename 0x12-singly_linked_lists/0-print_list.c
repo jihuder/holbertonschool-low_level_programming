@@ -9,7 +9,9 @@
 size_t print_list(const list_t *h)
 {
 size_t i;
+
 i = 0;
+
 if (!h)
 return (0);
 if (!(*h).str)
@@ -22,7 +24,9 @@ else if ((*h).str)
 printf("[%u] %s\n", (*h).len, (*h).str);
 i++;
 }
+
 if ((*h).next)
 i += print_list((*h).next);
+
 return (i);
 }
