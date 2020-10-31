@@ -15,7 +15,7 @@ if (!(*h).str)
 printf("[0] (nil)\n");
 i++;
 }
-else if (!(*h).str)
+else if ((*h).str)
 {
 printf("[%u] %s\n", (*h).len, (*h).str);
 i++;
