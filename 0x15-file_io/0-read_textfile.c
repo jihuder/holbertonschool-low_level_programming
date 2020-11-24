@@ -1,7 +1,6 @@
 #include "holberton.h"
-
 /**
- * read_textfile - reads a text file and prints it to the POSIX standard output.
+ * read_textfile - reads a text file and prints it to the POSIX standard output
  * @filename: string of files name
  * @letters: letters to read and print
  * Return: Times of letters read and printed, and zero if there is an error.
@@ -35,5 +34,4 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	free(buffer);
 	close(fd);
 	return (WDcount);
-
 }
