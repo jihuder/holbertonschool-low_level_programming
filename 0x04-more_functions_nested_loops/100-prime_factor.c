@@ -10,17 +10,18 @@
 
 int main(void)
 {
-long num = 612852475143;
-long fac;
+	long num = 612852475143;
+	long fac;
 
-for (fac = 2; num > fac; fac++)
-{
-while (num % fac == 0)
-{
-num = num / fac;
-}
-}
-printf("%ld\n", fac);
+	for (fac = 2; num > fac; fac++)
+	{
+		while (num % fac == 0)
+		{
+			num = num / fac;
+		}
+	}
 
-return (0);
+	printf("%ld\n", fac);
+
+	return (0);
 }
