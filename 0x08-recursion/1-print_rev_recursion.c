@@ -1,14 +1,16 @@
 #include "holberton.h"
+
 /**
  * _print_rev_recursion - function
  * @s: the address of memory to print
  * Return: s.
  */
+
 void _print_rev_recursion(char *s)
 {
-if (*s)
-{
-_print_rev_recursion(s + 1);
-_putchar(*s);
-}
+	if (*s)
+	{
+		_print_rev_recursion(s + 1);
+		_putchar(*s);
+	}
 }
