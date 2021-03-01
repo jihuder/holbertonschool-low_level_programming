@@ -1,9 +1,10 @@
 #include "holberton.h"
+
 int _atoi(char *s)
 {
-  int i;
+	int i;
 
-  i=*s;
+	i=*s;
 
-  return (i);
+	return (i);
 }
