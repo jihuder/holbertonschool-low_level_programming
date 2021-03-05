@@ -9,13 +9,16 @@
  *
  * Return: should cause normal process termination with a status value of 98
  */
+
 void *malloc_checked(unsigned int b)
 {
-void *jc;
-jc = malloc(b);
-if (jc == NULL)
-{
-exit(98);
-}
-return (jc);
+	void *jc;
+	jc = malloc(b);
+
+	if (jc == NULL)
+	{
+		exit(98);
+	}
+
+	return (jc);
 }
