@@ -6,7 +6,7 @@
  * @d: Structure
  * @name: name of the dog
  * @age: age of the dog
- * @owner: owner's 
+ * @owner: owner's
  *
  */
 
