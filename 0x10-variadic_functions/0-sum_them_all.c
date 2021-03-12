@@ -11,24 +11,24 @@
 int sum_them_all(const unsigned int n, ...)
 {
 
-int sum = 0;
+	int sum = 0;
 
-va_list arguments;
+	va_list arguments;
 
-if (arguments != NULL)
-{
-unsigned int count = 0;
+	if (arguments != NULL)
+	{
+		unsigned int count = 0;
 
-va_start(arguments, n);
+		va_start(arguments, n);
 
-while (count < n)
-{
-sum += va_arg(arguments, int);
-count++;
-}
+		while (count < n)
+		{
+			sum += va_arg(arguments, int);
+			count++;
+		}
 
-va_end(arguments);
+		va_end(arguments);
 
-return (sum);
-}
+		return (sum);
+	}
 }
