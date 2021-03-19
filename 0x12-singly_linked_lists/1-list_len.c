@@ -12,9 +12,9 @@ size_t list_len(const list_t *h)
 
 	i = 1;
 
-	if(!h)
+	if (!h)
 		return (0);
-	if((*h).next)
+	if ((*h).next)
 		i += list_len((*h).next);
 
 	return (i);
