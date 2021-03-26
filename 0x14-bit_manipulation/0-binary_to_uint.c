@@ -36,7 +36,7 @@ unsigned int binary_to_uint(const char *b)
 {
 	unsigned int x = 0, y = 0, copiax = 0, final = 0;
 
-	if (b && b[&])
+	if (b && b[x])
 	{
 		while (b[x] != '\0')
 		{
