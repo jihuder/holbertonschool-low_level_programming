@@ -28,11 +28,11 @@ int main(int argc, char *argv[])
 	lee = 1;
 	while (lee)
 	{
-		lee = read(file_f, tam, TAMAXI);
+		lee = read(file_f, tam, 1024);
 		if (lee == -1)
-		      dprintf(STDERR_FILENO,
-			      "Error: Can't read from file %s\n", namef),
-			      exit(98);
+			dprintf(STDERR_FILENO,
+				"Error: Can't read from file %s\n", namef),
+				exit(98);
 		if (lee > 0)
 		{
 			esc = write(file_cp, tam, lee);
