@@ -16,3 +16,4 @@ def island_perimeter(grid):
                     tol -= 2
                 if i > 0 and grid [i - 1]:
                     total -= 2
+    return tol
